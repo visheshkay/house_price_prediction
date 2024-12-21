@@ -1,0 +1,49 @@
+.head{
+  text-align: center;
+}
+.form-container{
+  display: block;
+  margin: auto;
+}
+.main-form{
+  text-align: center;
+  background-color: whitesmoke;
+  width: 50%;
+  margin: auto;
+  color: black;
+  padding:24px;
+  border-radius: 5%;
+}
+.field{
+  margin: 20px;
+}
+label{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+input[type="text"]{
+  
+  height: 2em;
+  width:15em;
+  border-radius: 0.75em;
+}
+
+input[type="text"]:focus,select:focus{
+  outline: 2px solid gold !important;
+}
+
+select{
+  width: 7.5em;
+  height: 2em;
+  border-radius: 0.5em;
+}
+
+.button-sub{
+  font-size: 0.95em;
+}
+
+.button-sub:hover{
+  background-color: rgb(232, 212, 95);
+  font-size: 0.95em;
+}
